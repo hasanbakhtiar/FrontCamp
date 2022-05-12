@@ -1,0 +1,39 @@
+/*this is comment*/
+/* li:nth-child(2n-2) {
+  color: red;
+  background-color: green;
+} */
+/* odd - tekler */
+/* even - cutler */
+/* 2n-1 ve.s */
+
+/* 
+p,li{
+    color: red;
+    background-color: green;
+} */
+
+/* 
+ol li{
+    color: red;
+    background-color: green;
+} */
+
+/* ol>li{
+    color: red;
+    background-color: green;
+} */
+
+
+#text{
+    color: blueviolet;
+}
+
+/* .word{
+    color: red;
+} */
+
+
+.word{
+    color: green;
+}
