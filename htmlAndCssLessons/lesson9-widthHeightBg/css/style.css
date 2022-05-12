@@ -1,0 +1,41 @@
+/* section{ */
+    /* width: 100%; */
+     /* viewport height */
+    /* height: 200vh; */
+/* } */
+
+/* .box { */
+  /* display: block; */
+  /* display: inline; */
+  /* display: inline-block; */
+  /* 1em and 1rem = 16px */
+  /* width:70rem;
+  height: 700px;
+  background-image: url('../img/img.jpg'); */
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  /* background-size: contain; */
+  /* background-size: cover;
+  background-position: center; */
+  /* background-repeat: no-repeat; */
+
+  /* red green blue   */
+  /* min 0, max 255 */
+  /* background-color: rgb(255,55,200); */
+  /* rgba */
+  /* red green blue alpha */
+  /* alpha max 1 <-> min 0 */
+  /* background-color: rgba(255,0,0,.5); */
+  /* background-color: hsla(1000, 100%, 50%, 0.285); */
+  /* background-color: hwb(280 0% 0% / 0.285); */
+/* } */
+
+
+/* span{ */
+/* color: #67c0c4; */
+/*hex  0123456789abcdef 
+    min=0 max=f
+    # min=3 max=6 (simvol)
+    */
+
+/* } */
