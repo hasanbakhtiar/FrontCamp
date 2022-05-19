@@ -1,0 +1,23 @@
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #919191;
+    @include ortalama();
+    nav{
+        width: 70%;
+    @include ortalama();
+      
+        ul{
+            width: 100%;
+    @include ortalama();
+       
+            li{
+                margin-left: 10px;
+                a{
+                    color: #000;
+                }
+            }
+        }
+
+    }
+}
