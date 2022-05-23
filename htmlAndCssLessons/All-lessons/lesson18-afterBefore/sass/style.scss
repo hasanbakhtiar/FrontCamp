@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.box{
+    position: relative;
+    height: 300px;
+    width: 100px;
+    background-color: green;
+    &::after{
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100px;
+        height: 0px;
+        transition: 1s;
+        background-color: #000;
+        
+    }
+
+    &:hover::after{
+        height: 300px;
+    }
+}
+
+
+
+// h1::before{
+//     content: " How a u";
+// }
+
+// h1::after{
+//     content: " How a u";
+// }
+
+
+// h1{
+//     display: flex;
+//     align-items: center;
+//     &::after{
+//         // content: " how a u?";
+//         // color:red;
+//         content: "";
+//         // display: inline-block;
+//         display:block;
+//         // margin-bottom: 10px;
+//         width: 100px;
+//         height: 2px;
+//         background-color: #000;
+//     }
+
+//     &::before{
+//         // content: " how a u?";
+//         // color:red;
+//         content: "";
+//         // display: inline-block;
+//         display:block;
+//         // margin-bottom: 10px;
+//         width: 100px;
+//         height: 2px;
+//         background-color: #000;
+//     }
+// }
+
+

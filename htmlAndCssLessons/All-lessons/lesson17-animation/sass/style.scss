@@ -1,0 +1,120 @@
+// i{
+//     position: relative;
+//     animation: gear 5s infinite linear;
+// }
+// @keyframes gear{
+//     0%{
+//         left: 0px;
+//         transform: rotate(0deg);
+//     }
+//     100%{
+//         left: 100px;
+//         transform: rotate(360deg);
+//     }
+// }
+
+// img{
+//     position: absolute;
+//     right: 0px;
+//     animation: runner 5s infinite;
+// }
+// @keyframes runner {
+//     0%{right: 0;}
+//     100%{right: 1000px;}
+// }
+
+
+// .main-notification{
+//     width: 50%;
+//     height: 70vh;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     .single-notification{
+//         width: 100%;
+//         height: 50px;
+//         background-color: #333;
+//         border-radius: 10px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-around;
+//         p{
+//             width: 50%;
+//             color: #fff;
+//             font-size: 20px;
+//         }
+//        .icon{
+//            width: 50%;
+//         i{
+            
+//             color: yellow;
+//             font-size: 25px;
+//             animation: animateicon 1s infinite;
+//         }
+//         @keyframes animateicon {
+//                 0%{
+//                     color: yellow;
+//                     font-size: 25px;
+//                 }
+
+//                 50%{
+//                     color: red;
+//                     font-size: 40px;
+//                 }
+
+//                 100%{
+//                     color: yellow;
+//                     font-size: 25px;
+//                 }
+//         }
+//        }
+//     }
+// }
+
+
+
+
+
+
+// p{
+//     animation: animate 1s infinite ;
+
+// }
+
+// @keyframes animate{
+//     0%{
+//         color: #000;
+//     }
+//     50%{
+//         color: red;
+//     }
+//     100%{
+//         color: #000;
+//     }
+// }
+
+
+
+// .box{
+//     position: relative;
+//     width: 100px;
+//     height: 100px;
+//     background-color: red;
+//     animation-name: hereket;
+//     animation-duration: 5s;
+//     // animation-iteration-count: infinite;
+//     animation-iteration-count: 1;
+//     animation-delay: 2s;
+//     animation-timing-function: ease;
+// }
+
+// @keyframes hereket{
+//     // from{left: 0;}
+//     // to{left: 100px;}
+//     0%{left: 0; top: 0; background-color: red;}
+//     25%{left: 200px; top: 0; background-color: green;}
+//     50%{left: 300px; top: 300px; background-color: blue;}
+//     75%{left: 0px; top: 300px; background-color: yellow;}
+//     100%{left: 0px; top: 0px; background-color: red;}
+
+// }
