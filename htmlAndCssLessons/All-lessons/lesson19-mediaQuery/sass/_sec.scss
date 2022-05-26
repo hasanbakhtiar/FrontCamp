@@ -1,0 +1,28 @@
+h1 {
+  font-size: 100px;
+  background: #121fcf;
+  background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section {
+  padding: 100px 0px;
+  width: 100%;
+  height: auto;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  .box {
+    width: 300px;
+    height: 500px;
+    background: linear-gradient(
+      100deg,
+      rgba(29, 253, 126, 1) 10%,
+      rgba(4, 31, 144, 1) 54%,
+      rgba(29, 72, 253, 1) 90%
+    );
+    border: 1px solid #000;
+    margin: 1px;
+  }
+}
