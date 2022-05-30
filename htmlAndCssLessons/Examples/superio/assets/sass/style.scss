@@ -1,0 +1,35 @@
+@import 'header';
+@import 'hero';
+@import 'jobcategories';
+@import 'featuredjobs';
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+
+.news-articles{
+    background-color: #eee;
+}
+
+.top{
+    transition: 1s;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    &:hover{
+        background-color: #eee ;
+        color: #333 ;
+        cursor: pointer;
+        border: 1px solid #000 ;
+    }
+}
