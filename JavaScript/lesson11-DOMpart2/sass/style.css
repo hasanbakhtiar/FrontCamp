@@ -1,0 +1,30 @@
+ul {
+  padding: 0;
+  width: 150px;
+  height: 200px;
+  background-color: #eee;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+ul li {
+  width: 50px;
+  list-style: none;
+}
+ul li a {
+  color: #000;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.hide {
+  transition: 1s;
+  transform: translateX(-300px);
+}
+
+.show {
+  transition: 1s;
+  transform: translateX(0px);
+}/*# sourceMappingURL=style.css.map */
