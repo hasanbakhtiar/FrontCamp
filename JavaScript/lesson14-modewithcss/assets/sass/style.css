@@ -1,0 +1,20 @@
+.main-box {
+  width: 100%;
+  height: 100vh;
+}
+
+.light .main-box {
+  transition: 1s;
+  background-color: #fff;
+}
+.light .main-box h1, .light .main-box p {
+  color: #000;
+}
+
+.dark .main-box {
+  transition: 1s;
+  background-color: #000;
+}
+.dark .main-box h1, .dark .main-box p {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
